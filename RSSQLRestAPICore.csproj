@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>649d2d48-424e-4f12-99dd-45a04ef2aeda</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="rssql-api-clr">
+			<HintPath>rssql-api-clr.dll</HintPath>
+		</Reference>
+		<Reference Include="rssql-api-interface">
+			<HintPath>rssql-api-interface.dll</HintPath>
+		</Reference>
+		<Reference Include="rssql-api-lib">
+			<HintPath>rssql-api-lib.dll</HintPath>
+		</Reference>
+		<Reference Include="RSSQL-CSLIB">
+			<HintPath>RSSQL-CSLIB.dll</HintPath>
+		</Reference>
+		<Reference Include="RSSQLAPI-CLR">
+			<HintPath>RSSQLAPI-CLR.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>
