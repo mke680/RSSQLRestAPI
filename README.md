@@ -1,6 +1,5 @@
 # RSSQLRestAPI
 3rd Party C# Rest API (Proof of Concept) Awaiting approval for further development
-![image](https://user-images.githubusercontent.com/55390802/120596565-4314d580-c487-11eb-81bd-51c2b0eb902e.png)
 
 This is an OpenAPI compliant REST API build to access the RS-SQL Record Management Database
 
@@ -15,5 +14,6 @@ This is an OpenAPI compliant REST API build to access the RS-SQL Record Manageme
       - Only C# dotNet API left as viable option
     - MSAL.js or ADAL.js or other can be used for SSO 
     - RSSQLRestAPI will use service account to return RSSQL usercode when given an SSO ID
+    ![image](https://user-images.githubusercontent.com/55390802/120650453-285f5280-c4c1-11eb-9e79-be5756f8a822.png)
       - If Username is not found JIT Provisioning will create a fresh user assigned to UPN/Email (WIP)
     - When usercode is returned successfully password will be reset and stored in token for login session (WIP) 
