@@ -13,7 +13,7 @@ This is an OpenAPI compliant REST API build to access the RS-SQL Record Manageme
     - OEM application website doesn't support single sign on
       - Rest API option is available but not commerically viable. Subscription based and support based model $$$$$
       - Only C# dotNet API left as viable option
-    - Vuejs MSOL can be used for SSO and is used to authenticate
-    - RSSQLRestAPI will use service account to return application usercode when given a UPN/Email
+    - MSAL.js or ADAL.js or other can be used for SSO 
+    - RSSQLRestAPI will use service account to return RSSQL usercode when given an SSO ID
       - If Username is not found JIT Provisioning will create a fresh user assigned to UPN/Email (WIP)
     - When usercode is returned successfully password will be reset and stored in token for login session (WIP) 
