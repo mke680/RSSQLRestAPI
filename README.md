@@ -1,5 +1,6 @@
 # RSSQLRestAPI
-3rd Party C# Rest API
+3rd Party C# Rest API (Proof of Concept) Awaiting approval for further development
+![image](https://user-images.githubusercontent.com/55390802/120596565-4314d580-c487-11eb-81bd-51c2b0eb902e.png)
 
 This is an OpenAPI compliant REST API build to access the RS-SQL Record Management Database
 
