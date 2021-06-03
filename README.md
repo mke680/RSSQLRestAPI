@@ -8,7 +8,7 @@ This is an OpenAPI compliant REST API build to access the RS-SQL Record Manageme
 - Main function is to support automation and proactive maintanence
 - Secondary Functions
   - API is used to facilate SSO
-![image](https://user-images.githubusercontent.com/55390802/120654786-59418680-c4c5-11eb-92af-3dd2f501b977.png)
+![image](https://user-images.githubusercontent.com/55390802/120656552-0f59a000-c4c7-11eb-8665-e2892487785b.png)
     - OEM application website doesn't support single sign on
       - Rest API option is available but not commerically viable. Subscription based and support based model $$$$$
       - Only C# dotNet API left as viable option
